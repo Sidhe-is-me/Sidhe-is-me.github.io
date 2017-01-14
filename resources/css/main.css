@@ -81,7 +81,7 @@ header{
 header h1{
   font-family: 'Lora',sans-serif;
   color: #bbc085;
-   font-size:9vw;
+   font-size:7vw;
 /*  font-size: 30px;*/
 
   padding: 50px 0;
@@ -183,6 +183,8 @@ padding: 55px 0;
 }
 
 #contact-img {
+  width: 110%;
+  height: auto;
   border: 12px solid #ffffff;
   margin-top: 80px;
   margin-left: 30px;
@@ -195,9 +197,12 @@ padding: 55px 0;
 
 }
 #envelope{
-  padding:0 50px 0 110px
+  padding:0 10px 0 110px;
+  width:auto;
+  height:auto;
 }
-
+;
+}
 #contact h2 {
   font-family: 'Lora', serif;
   font-size: 4vw;
@@ -214,6 +219,7 @@ padding: 55px 0;
   font-size: 3vw;
 /*  font-size: 29px;*/
   margin: 20px 0 0 0;
+  line-height: inherit;
 }
 #contact a{
   text-decoration:underline;
@@ -221,15 +227,22 @@ padding: 55px 0;
   font-weight: bold;
     font-size: 2vw;
 /*  font-size: 19px;*/
+line-height: inherit;
 }
 #contact ul{
   list-style: none;
+  line-height: inherit;
 }
 #contact ul li{
   display: inline-block;
+  line-height: inherit;
 }
 #contact ul img{
+  width: 50%;
+  height: auto;
   padding-right: 10px;
   width: 100%;
   height: auto;
 }
+
+  }
