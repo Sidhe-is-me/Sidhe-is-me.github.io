@@ -119,18 +119,20 @@ p a {
 /* NOTE: ABOUT */
 
 #about .full-width{
-  padding: 80px 0;
+  padding: 10px 10px ;
 }
 
 #about h2 {
   font-family: 'Lora', serif;
   font-size: 36px;
+  padding-left: 50px;
 }
 #about p{
   font-size: 21px;
   color: #7f7f7f;
   line-height: 42px;
   padding-right: 50px;
+  padding-left: 50px;
 }
 
 /* NOTE: work */
@@ -152,7 +154,7 @@ padding: 55px 0;
 #work h3{
   font-size: 24px;
   width:190px;
-  margin:0 auto;
+  margin:10px auto;
 
 }
 #work p{
@@ -167,19 +169,23 @@ padding: 55px 0;
     background-color: #ebebeb;
 }
 #contact .full-width{
-  padding: 110px 0;
-
+  padding: 110px 10px;
 }
 
 #contact-img {
   border: 12px solid #ffffff;
+  margin-top: 80px;
+  margin-left: 30px;
+
 }
 
 #contact h2, #email-header, #socialmedia-header,#contact ul {
-  padding-left: 115px
+  padding-left: 115px;
+  padding-top: 50px;
+
 }
 #envelope{
-  padding:0 10px 0 110px
+  padding:0 50px 0 110px
 }
 
 #contact h2 {
@@ -194,7 +200,7 @@ padding: 55px 0;
 #socialmedia-header{
   font-weight:lighter;
   font-size: 29px;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
 }
 #contact a{
   text-decoration:underline;
@@ -209,7 +215,7 @@ padding: 55px 0;
   display: inline-block;
 }
 #contact ul img{
-  padding-right: 48px;
+  padding-right: 10px;
   width: 100%;
   height: auto;
 }
