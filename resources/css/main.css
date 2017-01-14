@@ -101,7 +101,7 @@ nav ul li a{
 
 }
  header h2 {
-   width: auto;
+   width: 100%;
    clear: both;
    font-family: 'Lora', serif;
    font-size: 72px;
