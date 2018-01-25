@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>PacMan</title>	
+	<title>PacMan</title>
+	<h1>Use Arrows to move Pacman around</h>
+		<br></br>
+		<a href="portfolio.html">Portfolio</a>
+		<br></br>
 	<style>
 		/* All of our CSS code goes here... */
 		.wall {
@@ -37,53 +41,53 @@
 		div {
 			line-height: 0px;
 		}
-		
+
 		/* End of CSS */
 	</style>
 </head>
 <body>
 	<!-- All of our HTML code goes here... -->
-	
+
 	<div id='world'>
-		
+
 	</div>
 
 	<!-- End of HTML-->
 </body>
 <script>
-	// All of our JavaScript code goes here... 
-	
+	// All of our JavaScript code goes here...
+
 	// 1 => <div class='wall'></div>
 	// 2 => <div class='coin'></div>
 	// 3 => <div class='ground'></div>
 	// 4 => <div class='ghost'></div>
 	// 5 => <div class='pacman'></div>
-	
+
 	pacman = {
 		x: 6,
 		y: 7,
 	}
-	map = [ 
+	map = [
 		[1,1,1,1,1,1,1,1,1,1,1,1,1],
 		[1,2,2,2,2,2,1,2,2,2,2,2,1],
 		[1,2,4,2,2,2,1,2,2,2,2,2,1],
-		[1,2,2,2,2,2,1,2,2,2,2,4,1], 
-		[1,2,1,1,1,2,1,2,1,1,1,2,1], 
-		[1,2,1,2,2,2,2,2,2,2,1,2,1], 
-		[1,2,2,2,1,1,5,1,1,2,2,2,1], 
-		[1,2,1,2,2,2,2,2,2,2,1,2,1], 
-		[1,2,1,1,2,2,1,2,2,1,1,2,1], 
-		[1,2,2,2,2,2,1,2,2,2,2,2,1], 
+		[1,2,2,2,2,2,1,2,2,2,2,4,1],
+		[1,2,1,1,1,2,1,2,1,1,1,2,1],
+		[1,2,1,2,2,2,2,2,2,2,1,2,1],
+		[1,2,2,2,1,1,5,1,1,2,2,2,1],
+		[1,2,1,2,2,2,2,2,2,2,1,2,1],
+		[1,2,1,1,2,2,1,2,2,1,1,2,1],
+		[1,2,2,2,2,2,1,2,2,2,2,2,1],
 		[1,2,2,2,2,2,1,2,2,2,2,2,1],
 		[1,2,2,2,2,2,1,2,2,2,2,2,1],
 		[1,1,1,1,1,1,1,1,1,1,1,1,1],
 	]
 	var el = document.getElementById('world');
-	
+
 	function drawWorld(){
 		el.innerHTML = '';
 		for(var y = 0; y < map.length ; y = y + 1) {
-			for(var x = 0; x < map[y].length ; x = x + 1) {		
+			for(var x = 0; x < map[y].length ; x = x + 1) {
 				if (map[y][x] === 1) {
 					el.innerHTML += "<div class='wall'></div>";
 				}
@@ -140,7 +144,7 @@
 		}
 		console.log(map)
 	}
-	
+
 	// End of JavaScript
 </script>
 </html>
