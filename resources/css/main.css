@@ -124,6 +124,10 @@ p a {
   color:#2b2b2b;
 }
 
+footer {
+  text-align: center;
+}
+
 /* NOTE: ABOUT */
 
 #about .full-width{
