@@ -2,6 +2,9 @@
 *{
     box-sizing: border-box;
 }
+/* div{
+  border: 3px solid #bbc085;
+} */
 /*
 [class*="col-"] {
     width: 100%;
@@ -76,7 +79,7 @@ header{
   background-image: url('../img/full-background.png');
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-color: #ebebeb;
 }
 
