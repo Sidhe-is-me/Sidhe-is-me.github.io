@@ -1,13 +1,45 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
+	<header>
+		<h1>Yvonne Dreptate's Portfolio</h>
+		<nav>
+	<ul >
+		<li><a href="../../portfolio.html">Portfolio</a></li>
+		<li><a href="../../index.html">Home</a></li>
+		<li><a href="../../index.html#about">About</a></li>
+		<li><a href="../../index.html#work">Work</a></li>
+		<li><a href="../../index.html#contact">Contact</a></li></a>
+	</ul>
+	</nav>
+</header>
 	<title>PacMan</title>
 	<h1>Use Arrows to move Pacman around</h>
 		<br></br>
-		<a href="portfolio.html">Portfolio</a>
-		<br></br>
+
 	<style>
 		/* All of our CSS code goes here... */
+		header{
+			color: #bbc085;
+		  width: 100%;
+		  height: 100%;
+			font-family: 'Lora';
+		  background-image: url('../../resources/img/full-background.png');
+		  /* background-size: auto; */
+		  background-repeat: no-repeat;
+		  background-position: bottom;
+		  background-color: #ebebeb;
+		}
+	 nav ul li a{
+		  text-transform: uppercase;;
+		  text-decoration: none;
+		  font-size:1vw;
+		/*  font-size: 18px;*/
+		  color: #828282;
+			text-align: left;
+		}
+
 		.wall {
 			width: 50px;
 			height: 50px;
@@ -45,11 +77,10 @@
 		/* End of CSS */
 	</style>
 </head>
-<body>
+<body >
 	<!-- All of our HTML code goes here... -->
 
 	<div id='world'>
-
 	</div>
 
 	<!-- End of HTML-->
