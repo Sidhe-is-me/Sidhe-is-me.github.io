@@ -16,7 +16,7 @@ ul {
 li a {
   font-family: 'Lora', sans-serif;
   display: block;
-  color: #bbc085;
+  color: #905c3d;
   padding: 1em 3em;
   text-decoration: none;
   text-transform: uppercase;
@@ -24,13 +24,13 @@ li a {
 }
 
 li a.active {
-  background-color: #4CAF50;
+  background-color: #905c3d;
   color: white;
 }
 
 
 li a:hover:not(.active) {
-  background-color: #bbc085;
+  background-color: #905c3d;
   color: white;
 }
 
