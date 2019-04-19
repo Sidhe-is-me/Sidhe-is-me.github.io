@@ -1,3 +1,62 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: white;
+  position: fixed;
+  height: 99%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #bbc085;
+  padding: 1em 3em;
+  text-decoration: none;
+  text-transform:
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #bbc085;
+  color: white;
+}
+
+header {
+  width: 75%;
+  height: 3em;
+  background-image: url('../img/full-background.png');
+  background-repeat: no-repeat;
+  background-position: top ;
+  background-color: #ebebeb;
+}
+
+#contact {
+  background-color: #000;
+}
+
+
+#contact a {
+  text-decoration: underline;
+  /* color: #c49075; */
+  color: #905c3d;
+  font-weight: bold;
+  font-size: 1.2vw;
+  /*  font-size: 19px;*/
+  line-height: 1vw;
+}
+
+
 /* NOTE: base styles */
 /*this css is for the nav*/
 * {
@@ -88,7 +147,7 @@ header h1 {
   font-size: 7vw;
   /*  font-size: 30px;*/
   line-height: 10vw;
-  padding: 50px 0;
+  padding-left: 15vw;
 }
 .navbar-default{
   padding: 0px;
@@ -114,7 +173,7 @@ nav ul li a {
   ;
   font-size: 2vw;
   /*  font-size: 18px;*/
-  color: #828282;
+  color: #616060;
   padding-left: 80px;
 }
 
@@ -126,11 +185,11 @@ header h2 {
   /* font-size: 72px;*/
   line-height: 10vw;
   color: #2b2b2b;
-  padding: 20px 0;
+  padding-left: 5vw;
 }
 
 header h2 span {
-  color: #9b9b9b;
+  color: #616060;
 }
 
 p a {
