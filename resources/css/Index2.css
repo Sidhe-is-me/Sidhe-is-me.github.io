@@ -1,19 +1,29 @@
 /* NOTE: base styles */
+
+
 /*this css is for the nav*/
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 
 /* div{
   border: 3px solid #bbc085;
 } */
+
+
 /*
 [class*="col-"] {
     width: 100%;
     float: left;
     padding: 5px;
     */
+
+
 /* turn on boarder when updating Responsive design  border: 1px solid; */
+
+
 }
 
 /*
@@ -36,51 +46,49 @@
     #navmobile{float:right;
                 padding-left: auto}
                 */
+
 }
 
 /*
 @media only screen and (max-width: 767px) {
   /* MOBILE: */
+
 /*
    .workclass {height: 1000px;}
    #navmobile {float: left;}
 
 }
 */
-
 body {
-  margin: 0;
+    margin: 0;
 }
-
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 15%;
-  background-color: white;
-  position: fixed;
-  height: 99%;
-  overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: white;
+    position: fixed;
+    height: 99%;
+    overflow: auto;
 }
-
 li a {
-  font-family: 'Lora', sans-serif;
-  display: block;
-  color: #905c3d;
-  padding: 1em 3em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.2em;
+    font-family: 'Lora',
+    sans-serif;
+    display: block;
+    color: #905c3d;
+    padding: 1em 3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
 }
-
 li a.active {
-  background-color: #905c3d;
-  color: white;
+    background-color: #905c3d;
+    color: white;
 }
-
 li a:hover:not(.active) {
-  background-color: #905c3d;
-  color: white;
+    background-color: #905c3d;
+    color: white;
 }
 
 /* header {
@@ -91,228 +99,212 @@ li a:hover:not(.active) {
   background-position: top;
   background-color: #ebebeb;
 } */
-
 #contact {
-  background-color: #000;
+    background-color: #000;
 }
-
 #contact a {
-  text-decoration: underline;
-  /* color: #c49075; */
-  color: #905c3d;
-  font-weight: bold;
-  font-size: 1.2vw;
-  /*  font-size: 19px;*/
-  line-height: 1vw;
+    text-decoration: underline;
+    /* color: #c49075; */
+    color: #905c3d;
+    font-weight: bold;
+    font-size: 1.2vw;
+    /*  font-size: 19px;*/
+    line-height: 1vw;
 }
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro',
+    sans-serif;
 }
-
-#about, #contact {
-  height: 600px;
+#about,
+#contact {
+    height: 600px;
 }
 
 /* NOTE: GRID */
 .full-width {
-  width: 1200px;
-  margin: auto;
+    width: 1200px;
+    margin: auto;
 }
-
 .half-width {
-  width: 600px;
-  float: left;
+    width: 600px;
+    float: left;
 }
-
 .third-width {
-  width: 400px;
-  float: left;
+    width: 400px;
+    float: left;
 }
 
 /* NOTE: add header bacground and height css here */
 header {
-  width: 100%;
-  height: auto;
-  background-image: url('../img/full-background.png');
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: #ebebeb;
+    width: 100%;
+    height: auto;
+    background-image: url('../img/full-background.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #ebebeb;
 }
-
 header h1 {
-  font-family: 'Lora', sans-serif;
-  color: #bbc085;
-  font-size: 7vw;
-  /*  font-size: 30px;*/
-  line-height: 10vw;
-  padding-left: 15vw;
+    font-family: 'Lora',
+    sans-serif;
+    font-weight: 200;
+    color: #bbc085;
+    font-size: 7vw;
+    /*  font-size: 30px;*/
+    line-height: 10vw;
+    padding-left: 15vw;
 }
-
-
 nav ul li a {
-  font-family: 'Lora', sans-serif;
-  	display: block;
-  	color: #905c3d;
-  	/* padding: 1em 3em; */
-  	text-decoration: none;
-  	text-transform: uppercase;
-  	font-size: 1.2em;
+    font-family: 'Lora',
+    sans-serif;
+    display: block;
+    color: #905c3d;
+    /* padding: 1em 3em; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
 }
-
 header h2 {
-  width: 100%;
-  clear: both;
-  font-family: 'Lora', serif;
-  font-size: 5vw;
-  /* font-size: 72px;*/
-  line-height: 10vw;
-  color: #2b2b2b;
-  padding-left: 5vw;
+    width: 100%;
+    clear: both;
+    font-family: 'Lora',
+    serif;
+    font-size: 5vw;
+    /* font-size: 72px;*/
+    line-height: 10vw;
+    color: #2b2b2b;
+    padding-left: 5vw;
 }
-
 header h2 span {
-  color: #616060;
+    color: #616060;
 }
-
 p a {
-  color: #2b2b2b;
+    color: #2b2b2b;
 }
-
 footer {
-  text-align: center;
+    text-align: center;
 }
 
 /* NOTE: ABOUT */
 #about .full-width {
-  padding: 10px 10px;
-  margin: auto;
+    padding: 10px 10px;
+    margin: auto;
 }
-
 #about h2 {
-  font-family: 'Lora', serif;
-  font-size: 3vw;
-  /*font-size: 36px;*/
-  padding-left: 50px;
+    font-family: 'Lora',
+    serif;
+    font-size: 3vw;
+    /*font-size: 36px;*/
+    padding-left: 50px;
 }
-
 #about p {
-  font-size: 2vw;
-  /*  font-size: 21px;*/
-  color: #525151;
-  line-height: 4vw;
-  padding-right: 10px;
-  padding-left: 10px;
+    font-size: 2vw;
+    /*  font-size: 21px;*/
+    color: #525151;
+    line-height: 4vw;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* NOTE: work */
 #work {
-  background: #f9ceb7;
-  text-align: center;
-  padding: 55px 0;
+    background: #f9ceb7;
+    text-align: center;
+    padding: 55px 0;
 }
-
 #work .full-width {
-  padding: 55px 0;
+    padding: 55px 0;
 }
-
 #work img {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
-
 #work h3 {
-  font-size: 3vw;
-  /*  font-size: 24px;*/
-  width: 100%;
-  margin: 10px auto;
+    font-size: 3vw;
+    /*  font-size: 24px;*/
+    width: 100%;
+    margin: 10px auto;
 }
-
 #work p {
-  font-family: 'Lora', serif;
-  font-size: 2vw;
-  /* font-size: 18px;*/
-  line-height: 5vw;
-  color: #2b2b2b;
-  /*  padding: 0 35px;*/
-  padding-right: 5px;
-  padding-left: 5px;
+    font-family: 'Lora',
+    serif;
+    font-size: 2vw;
+    /* font-size: 18px;*/
+    line-height: 5vw;
+    color: #2b2b2b;
+    /*  padding: 0 35px;*/
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 /* NOTE: CONTACT SECTION */
 #contact {
-  background-color: #ebebeb;
+    background-color: #ebebeb;
 }
-
 #contact .full-width {
-  padding: 110px 10px;
+    padding: 110px 10px;
 }
-
 #contact-img {
-  width: 110%;
-  height: auto;
-  border: 12px solid #ffffff;
-  margin-top: 80px;
-  margin-left: 30px;
+    width: 110%;
+    height: auto;
+    border: 12px solid #ffffff;
+    margin-top: 80px;
+    margin-left: 30px;
 }
-
-#contact h2, #email-header, #socialmedia-header, #contact ul {
-  padding-left: 115px;
-  padding-top: 50px;
-}
-
-#envelope {
-  padding: 0 10px 0 110px;
-  width: auto;
-  height: auto;
-}
-
-#contact h2 {
-  font-family: 'Lora', serif;
-  font-size: 2vw;
-  /*  font-size: 36px;*/
-}
-
-#email-header {
-  font-size: 2vw;
-  /*  font-size: 29px;*/
-  font-weight: bold;
-  margin: -30px 0 5px 0;
-  line-height: 1vw;
-}
-
-#socialmedia-header {
-  font-weight: lighter;
-  font-size: 2vw;
-  /*  font-size: 29px;*/
-  margin: 20px 0 0 0;
-  line-height: 1vw;
-}
-
-#contact a {
-  text-decoration: underline;
-  /* color: #c49075; */
-  color: #905c3d;
-  font-weight: bold;
-  font-size: 1.2vw;
-  /*  font-size: 19px;*/
-  line-height: 1vw;
-}
-
+#contact h2,
+#email-header,
+#socialmedia-header,
 #contact ul {
-  list-style: none;
-  line-height: 1vw;
+    padding-left: 115px;
+    padding-top: 50px;
 }
-
+#envelope {
+    padding: 0 10px 0 110px;
+    width: auto;
+    height: auto;
+}
+#contact h2 {
+    font-family: 'Lora',
+    serif;
+    font-size: 2vw;
+    /*  font-size: 36px;*/
+}
+#email-header {
+    font-size: 2vw;
+    /*  font-size: 29px;*/
+    font-weight: bold;
+    margin: -30px 0 5px 0;
+    line-height: 1vw;
+}
+#socialmedia-header {
+    font-weight: lighter;
+    font-size: 2vw;
+    /*  font-size: 29px;*/
+    margin: 20px 0 0 0;
+    line-height: 1vw;
+}
+#contact a {
+    text-decoration: underline;
+    /* color: #c49075; */
+    color: #905c3d;
+    font-weight: bold;
+    font-size: 1.2vw;
+    /*  font-size: 19px;*/
+    line-height: 1vw;
+}
+#contact ul {
+    list-style: none;
+    line-height: 1vw;
+}
 #contact ul li {
-  display: inline-block;
-  line-height: 1vw;
+    display: inline-block;
+    line-height: 1vw;
+}
+#contact ul img {
+    width: 50%;
+    height: auto;
+    padding-right: 10px;
+    width: 100%;
+    height: auto;
 }
 
-#contact ul img {
-  width: 50%;
-  height: auto;
-  padding-right: 10px;
-  width: 100%;
-  height: auto;
-}
 }
