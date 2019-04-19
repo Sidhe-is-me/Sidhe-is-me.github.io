@@ -1,64 +1,3 @@
-body {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 15%;
-  background-color: white;
-  position: fixed;
-  height: 99%;
-  overflow: auto;
-}
-
-li a {
-  font-family: 'Lora', sans-serif;
-  display: block;
-  color: #905c3d;
-  padding: 1em 3em;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.2em;
-}
-
-li a.active {
-  background-color: #905c3d;
-  color: white;
-}
-
-
-li a:hover:not(.active) {
-  background-color: #905c3d;
-  color: white;
-}
-
-header {
-  width: 75%;
-  height: 3em;
-  background-image: url('../img/full-background.png');
-  background-repeat: no-repeat;
-  background-position: top ;
-  background-color: #ebebeb;
-}
-
-#contact {
-  background-color: #000;
-}
-
-
-#contact a {
-  text-decoration: underline;
-  /* color: #c49075; */
-  color: #905c3d;
-  font-weight: bold;
-  font-size: 1.2vw;
-  /*  font-size: 19px;*/
-  line-height: 1vw;
-}
-
-
 /* NOTE: base styles */
 /*this css is for the nav*/
 * {
@@ -108,6 +47,64 @@ header {
 
 }
 */
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: white;
+  position: fixed;
+  height: 99%;
+  overflow: auto;
+}
+
+li a {
+  font-family: 'Lora', sans-serif;
+  display: block;
+  color: #905c3d;
+  padding: 1em 3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+li a.active {
+  background-color: #905c3d;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #905c3d;
+  color: white;
+}
+
+header {
+  width: 75%;
+  height: 3em;
+  background-image: url('../img/full-background.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #ebebeb;
+}
+
+#contact {
+  background-color: #000;
+}
+
+#contact a {
+  text-decoration: underline;
+  /* color: #c49075; */
+  color: #905c3d;
+  font-weight: bold;
+  font-size: 1.2vw;
+  /*  font-size: 19px;*/
+  line-height: 1vw;
+}
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -151,32 +148,16 @@ header h1 {
   line-height: 10vw;
   padding-left: 15vw;
 }
-.navbar-default{
-  padding: 0px;
-}
-.navbar{
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
 
-nav {
-  padding: 75px 40px
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 3vw;
-}
 
 nav ul li a {
-  text-transform: uppercase;
-  ;
-  text-decoration: none;
-  ;
-  font-size: 2vw;
-  /*  font-size: 18px;*/
-  color: #616060;
-  padding-left: 80px;
+  font-family: 'Lora', sans-serif;
+  	display: block;
+  	color: #905c3d;
+  	/* padding: 1em 3em; */
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	font-size: 1.2em;
 }
 
 header h2 {
@@ -283,9 +264,6 @@ footer {
   padding: 0 10px 0 110px;
   width: auto;
   height: auto;
-}
-
-;
 }
 
 #contact h2 {
