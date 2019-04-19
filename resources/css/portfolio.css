@@ -9,7 +9,11 @@ header h1 {
   line-height: 10vw;
   padding-left: 15vw;
 }
-
+h2 {
+  font-family: 'Lora';
+  color: #905c3d;
+  text-align: center;
+}
 h3 {
   font-family: 'Lora';
   color: #905c3d;
